@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELEIÇÃO CIPA</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/candidatos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div id="superior">
+        <div class="p-4">
+
+            <h2 class="titulo"><img src="assets/imgs/logo.png" width="70" height="65" />RESULTADO DA ELEIÇÃO CIPA 2023</h2>
+
+            <section class="statistics mt-4">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="box d-flex rounded-2 align-items-center mb-4 mb-lg-0 p-3">
+                            <div class="ms-3">
+                                <div class="d-flex align-items-center">
+                                     <span class="d-block ms-2"><h4 class="mb-0">TOTAL DE 844 VOTOS</h4></span>
+                                </div>
+                                <p class="fs-normal mb-0">GERAL DOS VOTOS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="box d-flex rounded-2 align-items-center mb-4 mb-lg-0 p-3">
+                            <div class="ms-3">
+                                <div class="d-flex align-items-center">
+                                    <h4 class="mb-0"> <span class="d-block ms-2">TOTAL DE 16 VOTOS NULOS</span></h4>
+                                </div>
+                                <p class="fs-normal mb-0">VOTOS NÃO VALIDADOS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="box d-flex rounded-2 align-items-center p-3">
+                            <div class="ms-3">
+                                <div class="d-flex align-items-center">
+                                    <h4 class="mb-0"> <span class="d-block ms-2">TOTAL DE 823 VOTOS VÁLIDOS</span></h4>
+                                </div>
+                                <p class="fs-normal mb-0">VOTOS VÁLIDADOS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <figure class="highcharts-figure">
+                            <div id="container"></div>
+
+                            <p class="fs-normal mb-0">ESCOLHA O MÉTODO DE VISUALIZAÇÃO DO GRÁFICO: CLICK NOS
+                                BOTÕES ABAIXA</p>
+
+                            <!--====Butões para alterar a previsualização do gráfico===-->
+                            <a href="pie3D.php"><button id="inverted">PIZZA</button></a>
+                            <a href="Colum3D.php"><button id="polar">BARRAS</button></a>
+                            <a href="barra3d.html"><button id="plain">BARRA 3D</button></a>
+                            <a href="../samples/index.html"><button id="polar">VOLTAR</button></a>
+                        </figure>
+                    
+        </div>
+        </section>
+    </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
